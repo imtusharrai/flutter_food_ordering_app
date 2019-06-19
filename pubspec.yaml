@@ -1,0 +1,52 @@
+name: flutter_food_ordering_app
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  smooth_star_rating: ^1.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/icon-back-arrow-black.png
+    - assets/icon-back-arrow-white.png
+    - assets/icon-chat-notification.png
+    - assets/icon-favorite.png
+    - assets/icon-home.png
+    - assets/icon-mentors.png
+    - assets/icon-messages.png
+    - assets/icon-search-black.png
+    - assets/icon-search-white.png
+    - assets/icon-selected-rating-star.png
+    - assets/icon-settings.png
+    - assets/icon-unselected-rating-star.png
+    - assets/menu-1-yoshimasa-sushi.png
+    - assets/menu-2-yoshimasa-sushi.png
+    - assets/menu-3-prato-sushi.png
+    - assets/resturant-1-sushi-den.png
+    - assets/resturant-2-hatsuhana-shushi.png
+    - assets/resturant-3-shushi-maki.png
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: fonts/Montserrat-Bold.ttf
+        - asset: fonts/Montserrat-Medium.ttf
+          weight: 500
+        - asset: fonts/Montserrat-SemiBold.ttf
+          weight: 600
