@@ -1,1 +1,1 @@
-![Alt text](flutter-food-ordering-app.png?raw=true "Flutter Food Ordering App")
+![Alt text](food-ordering-app.png?raw=true "Flutter Food Ordering App")
