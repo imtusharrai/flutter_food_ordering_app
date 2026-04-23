@@ -1,125 +1,114 @@
-# 🍣 Flutter Food Ordering App
+<div align="center">
 
-[![Flutter](https://img.shields.io/badge/Flutter-3.x-02569B?logo=flutter&logoColor=white)](https://flutter.dev)
-[![Dart](https://img.shields.io/badge/Dart-3.x-0175C2?logo=dart&logoColor=white)](https://dart.dev)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+# 🍣 Premium Flutter Food Delivery UI Kit
+
+**A pixel-perfect, production-ready Flutter UI Kit for food delivery & restaurant apps.**
+
+[![Flutter](https://img.shields.io/badge/Flutter-3.x-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
+[![Dart](https://img.shields.io/badge/Dart-3.x-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 [![Stars](https://img.shields.io/github/stars/imtusharrai/flutter_food_ordering_app?style=social)](https://github.com/imtusharrai/flutter_food_ordering_app/stargazers)
-[![Forks](https://img.shields.io/github/forks/imtusharrai/flutter_food_ordering_app?style=social)](https://github.com/imtusharrai/flutter_food_ordering_app/network/members)
-
-A beautifully designed food ordering app built with **Flutter**. Features a modern UI with smooth animations, vibrant food cards, restaurant listings, and a polished ordering flow.
-
-## 📱 Screenshots
 
 <p align="center">
-  <img src="food-ordering-app.png" alt="App Screenshots" width="700"/>
+  <br>
+  Built with ❤️ by <a href="https://github.com/imtusharrai">Tushar Rai</a>
 </p>
 
-## ✨ Features
+---
 
-- 🎨 **Modern UI Design** — Vibrant color palette with blue, green, and dark themed food cards
-- 📱 **Responsive Layout** — Adapts beautifully to different screen sizes
-- ⭐ **Star Ratings** — Smooth star rating system for restaurants and dishes
-- 🛒 **Cart System** — Floating cart button for quick ordering
-- 🔍 **Search** — Built-in search functionality
-- 📋 **Restaurant Listings** — Browse restaurants with descriptions, ratings, and order buttons
-- ❤️ **Favorites** — Mark your favorite dishes with the heart button
-- 🍱 **Dish Details** — Detailed view for each dish with restaurant suggestions
-- 📐 **Custom Navigation** — Rounded bottom navigation bar with 4 tabs
+</div>
 
-## 🏗️ Architecture
+This repository features a **world-class, high-end Flutter Food Ordering application interface**, designed with modern design principles (glassmorphism, soft gradients, and fluid typography). It now features a robust, state-managed **Light & Dark Mode** engine.
 
-```
-lib/
-├── main.dart          # Home page with food cards & restaurant listings
-└── detailpage.dart    # Dish detail page with restaurant suggestions
-```
+It serves as the perfect starting point for your next food delivery startup, restaurant app, or portfolio showcase.
+
+## ✨ Key Features
+
+- 🌓 **Dynamic Theming System:** Full support for system and manual Light/Dark mode toggling with smooth transitions.
+- 🎨 **Premium Aesthetic:** Curated color palettes (`#0D0D0D` true dark, `#F7F7FA` premium light) with soft shadows and gradients.
+- 📱 **Adaptive Layouts:** Responsive UI components using flexible widgets (`Wrap`, `CustomScrollView`, `SliverAppBar`) that look great on any screen size.
+- 🍱 **Rich Animations:** Smooth scrolling physics, hero animations, and interactive bottom navigation.
+- 🛠️ **Clean Architecture:** State management via `ChangeNotifier` (Provider pattern) for optimal performance.
+
+## 📱 Visual Showcase
+
+Experience the meticulously crafted UI across different themes and screens.
+
+| 🌙 Dark Mode (Home) | ☀️ Light Mode (Home) |
+| :---: | :---: |
+| <img src="screenshots/home_dark.png" width="300" alt="Dark Mode Home"/> | <img src="screenshots/home_light.png" width="300" alt="Light Mode Home"/> |
+
+| 🌙 Dark Mode (Detail) | ☀️ Light Mode (Detail) |
+| :---: | :---: |
+| <img src="screenshots/detail_dark.png" width="300" alt="Dark Mode Detail"/> | <img src="screenshots/detail_light.png" width="300" alt="Light Mode Detail"/> |
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 
 - [Flutter SDK](https://flutter.dev/docs/get-started/install) (3.x or higher)
-- [Android Studio](https://developer.android.com/studio) or [VS Code](https://code.visualstudio.com/)
-- An Android/iOS device or emulator
+- [Android Studio](https://developer.android.com/studio) / Xcode / [VS Code](https://code.visualstudio.com/)
 
-### Installation
+### Installation & Run
 
-1. **Clone the repository**
+1. **Clone the repository:**
    ```bash
    git clone https://github.com/imtusharrai/flutter_food_ordering_app.git
    cd flutter_food_ordering_app
    ```
 
-2. **Install dependencies**
+2. **Fetch packages:**
    ```bash
    flutter pub get
    ```
 
-3. **Run the app**
+3. **Run on your device/emulator:**
    ```bash
    flutter run
    ```
+   > **Pro Tip:** To run on a specific device using wireless debugging, use `flutter run -d <device-id>`.
 
-### Run on Physical Device (USB Debugging)
+## 🏗️ Project Structure
 
-```bash
-# List connected devices
-flutter devices
-
-# Run on specific device
-flutter run -d <device-id>
 ```
-
-## 📦 Dependencies
-
-| Package | Description |
-|---------|-------------|
-| [smooth_star_rating_nsafe](https://pub.dev/packages/smooth_star_rating_nsafe) | Customizable star rating widget |
-| [cupertino_icons](https://pub.dev/packages/cupertino_icons) | iOS-style icons |
+lib/
+├── main.dart          # Entry point, ThemeNotifier, and Home Page UI
+└── detailpage.dart    # Detailed product view with Hero transitions
+screenshots/           # High-res UI showcases
+```
 
 ## 🎨 Design System
 
-| Element | Color |
-|---------|-------|
-| Primary Blue | `#00B1FF` |
-| Success Green | `#00D99E` |
-| Card Green | `#00E582` |
-| Card Dark | `#535353` |
-| Order Button | `#00D672` |
-| Star Rating | `#FFA127` |
-| Text Primary | `#2A2A2A` |
+The app utilizes a strictly typed `AppColors` data class to manage its theme variants, ensuring scaling to new themes is effortless.
 
-## 📱 Supported Platforms
+| Element | Light Mode | Dark Mode |
+|---------|------------|-----------|
+| Background | `#F7F7FA` | `#0D0D0D` |
+| Surface/Cards | `#FFFFFF` | `#1A1A2E` |
+| Text Primary | `#1A1A2E` | `#FFFFFF` |
+| Accent/Brand | `#xFFFF6B35` | `#xFFFF6B35` |
 
-- ✅ Android
-- ✅ iOS
-- ✅ Web (experimental)
+## 💡 Why use this UI Kit?
 
-## 🤝 Contributing
+If you are a developer or designer looking to build an engaging mobile application, this template saves you countless hours of UI tweaking. It demonstrates how to effectively combine Slivers, custom paints, and global state management into a cohesive, production-ready product. 
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+## 🤝 Contributing & Feedback
 
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+Contributions, issues, and feature requests are highly welcome! Feel free to check the [issues page](https://github.com/imtusharrai/flutter_food_ordering_app/issues).
 
-## 📄 License
+If you love the UI or find it useful for your projects, **please drop a ⭐ star** on the repository to help it gain visibility!
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## 👨‍💻 Connect with the Author
 
-## 👨‍💻 Author
+**Tushar Rai** — Software Engineer & Open Source Enthusiast
 
-**Tushar Rai** — [@imtusharrai](https://github.com/imtusharrai)
-
-- 🌐 [traiinc.com](https://www.traiinc.com)
-- 🐦 [@imtusharrai](https://twitter.com/imtusharrai)
-- 💼 [Google Dev Profile](https://g.dev/tusharrai)
-- 📚 [Stack Overflow](https://stackoverflow.com/users/5846565/tushar-rai)
+- 💼 Portfolio: [traiinc.com](https://www.traiinc.com)
+- 🐙 GitHub: [@imtusharrai](https://github.com/imtusharrai)
+- 🐦 Twitter/X: [@imtusharrai](https://twitter.com/imtusharrai)
+- 🌐 Google Dev: [g.dev/tusharrai](https://g.dev/tusharrai)
 
 ---
-
-<p align="center">
-  Made with ❤️ and Flutter
-</p>
+<div align="center">
+  <b>Designed & Engineered with ❤️ using Flutter</b><br>
+  <i>Empowering developers to build beautiful apps faster.</i>
+</div>
