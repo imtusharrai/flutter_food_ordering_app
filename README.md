@@ -102,7 +102,7 @@ If you love the UI or find it useful for your projects, **please drop a ⭐ star
 
 **Tushar Rai** — Software Engineer & Open Source Enthusiast
 
-- 💼 Portfolio: [portfolio.traiinc.com](https://portfolio.traiinc.com)
+- 💼 Portfolio: [tusharrai.traiinc.com](https://tusharrai.traiinc.com)
 - 🐙 GitHub: [@imtusharrai](https://github.com/imtusharrai)
 - 🐦 Twitter/X: [@imtusharrai](https://twitter.com/imtusharrai)
 - 🌐 Google Dev: [g.dev/tusharrai](https://g.dev/tusharrai)
